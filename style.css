@@ -188,3 +188,16 @@ main > h2 {
    color: #82AAFF;
    text-align: center;
 }
+
+.social-links a {
+   margin-right: 15px;
+   display: inline-block;
+}
+
+.social-links img {
+   width: 40px;
+   height: 40px;
+  filter: none; /* Sin filtro, colores originales */
+   vertical-align: middle;
+}
+
