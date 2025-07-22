@@ -26,21 +26,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/sobre-mi.html">Sobre mí</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/proyectos.html">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/formacion.html">Formación</a>
-              </li>
+              <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/sobre-mi.html">Sobre mí</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/proyectos.html">Proyectos</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/formacion.html">Formación</a></li>
             </ul>
           </div>
         </div>
@@ -49,76 +39,60 @@
 
     <main class="container my-5">
       <section class="hero text-center mb-5">
-        <h2>Bienvenido a mi Portfolio</h2>
-        <p>Estudiante de Desarrollo y programación web.</p>
+        <h1 class="display-4">Bienvenido a mi Portfolio</h1>
+        <p class="lead">Estudiante de Desarrollo y programación web.</p>
       </section>
 
-      <!-- Sección Proyectos 2x2 -->
-      <section class="grid-proyectos">
-        <article class="card p-3">
-          <h3>Proyecto Destacado 1</h3>
-          <p><strong>Nombre:</strong> DevConnect - Plataforma de Networking</p>
-          <p>
-            Red social web para desarrolladores donde pueden crear perfiles, compartir proyectos y conectar con otros
-            profesionales del sector IT. Incluye sistema de mensajes y foros temáticos.
-          </p>
-          <p><strong>Tecnologías:</strong> React, Node.js, MongoDB, Socket.io</p>
-          <p>
-            <strong>Valor agregado:</strong> Chat en tiempo real, perfiles con portafolio integrado y búsqueda avanzada.
-          </p>
-        </article>
-
-        <article class="card p-3">
-          <h3>Proyecto Destacado 2</h3>
-          <p><strong>Nombre:</strong> SecureVault - Gestión de Contraseñas</p>
-          <p>
-            App web para almacenar y gestionar contraseñas con cifrado de extremo a extremo y autenticación multifactor.
-          </p>
-          <p><strong>Tecnologías:</strong> Angular, Firebase, CryptoJS, OAuth 2.0</p>
-          <p><strong>Valor agregado:</strong> Alta seguridad, recuperación de cuenta y soporte multiplataforma.</p>
-        </article>
-
-        <article class="card p-3">
-          <h3>Proyecto Destacado 3</h3>
-          <p><strong>Nombre:</strong> SmartShop - E-commerce Inteligente</p>
-          <p>
-            Tienda online que utiliza un motor de recomendaciones basado en Machine Learning para sugerir productos
-            según el historial y preferencias del usuario.
-          </p>
-          <p><strong>Tecnologías:</strong> Vue.js, Python (Flask), PostgreSQL, Scikit-learn</p>
-          <p>
-            <strong>Valor agregado:</strong> Recomendaciones personalizadas y análisis de comportamiento para optimizar
-            ventas.
-          </p>
-        </article>
-
-        <article class="card p-3">
-          <h3>Proyecto Destacado 4</h3>
-          <p><strong>Nombre:</strong> HealthTrack - Plataforma de Salud Personal</p>
-          <p>Plataforma web para monitorear y gestionar hábitos saludables con seguimiento en tiempo real.</p>
-          <p><strong>Tecnologías:</strong> React, Firebase, Chart.js</p>
-          <p>
-            <strong>Valor agregado:</strong> Dashboard personalizado y recordatorios automáticos para hábitos
-            saludables.
-          </p>
-        </article>
+      <section>
+        <h2 class="mb-4 text-center">Proyectos Destacados</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <h3>DevConnect</h3>
+              <p>Red social web para desarrolladores con chat en tiempo real y perfiles con portafolio integrado.</p>
+              <p><strong>Tecnologías:</strong> React, Node.js, MongoDB, Socket.io</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <h3>SecureVault</h3>
+              <p>App web para gestionar contraseñas con cifrado y autenticación multifactor.</p>
+              <p><strong>Tecnologías:</strong> Angular, Firebase, CryptoJS, OAuth 2.0</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <h3>SmartShop</h3>
+              <p>Tienda online con motor de recomendaciones basado en Machine Learning.</p>
+              <p><strong>Tecnologías:</strong> Vue.js, Python (Flask), PostgreSQL, Scikit-learn</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <h3>HealthTrack</h3>
+              <p>Plataforma para monitorear hábitos saludables con dashboard personalizado.</p>
+              <p><strong>Tecnologías:</strong> React, Firebase, Chart.js</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <div class="social-links">
-        <a href="https://www.instagram.com/gonzaorlandoni/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logoinstagram.png" alt="Instagram" />
+    <footer class="mt-5">
+      <div class="social-links text-center mb-3">
+        <a href="https://www.instagram.com/gonzaorlandoni/" target="_blank" rel="noopener noreferrer" class="mx-2">
+          <img src="img/logoinstagram.png" alt="Instagram" width="30" height="30" />
         </a>
         <a
           href="https://www.linkedin.com/in/gonzalo-javier-orlandoni-337892229/"
           target="_blank"
           rel="noopener noreferrer"
+          class="mx-2"
         >
-          <img src="img/logolinkedin.png" alt="LinkedIn" />
+          <img src="img/logolinkedin.png" alt="LinkedIn" width="30" height="30" />
         </a>
       </div>
-      <p>&copy; 2025 Gonzalo Orlandoni</p>
+      <p class="text-center text-muted">&copy; 2025 Gonzalo Orlandoni</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -9,74 +9,69 @@
     <link rel="icon" href="../img/favicon-entrega2.png" type="image/png" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-custom">
-      <div class="container">
-        <a class="navbar-brand" href="../index.html">Gonzalo Orlandoni</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="sobre-mi.html">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="formacion.html">Formación</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <main class="container my-5">
-      <section class="sobre-mi container my-5">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="card sobre-mi-card text-center">
-              <img src="/img/fotoperfil.png" alt="Foto de Perfil" class="foto-perfil" />
-              <h2>Sobre Mí</h2>
-              <p>
-                Estoy en proceso de formación como desarrollador web, enfocándome en adquirir conocimientos sólidos en
-                programación y tecnologías del mundo IT. Mi objetivo es continuar creciendo profesionalmente y aportar
-                soluciones eficientes a través del desarrollo web.
-              </p>
-            </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">Gonzalo Orlandoni</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link active" href="sobre-mi.html">Sobre mí</a></li>
+              <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+              <li class="nav-item"><a class="nav-link" href="formacion.html">Formación</a></li>
+            </ul>
           </div>
         </div>
+      </nav>
+    </header>
+
+    <main class="container my-5">
+      <section class="sobre-mi p-4 mx-auto">
+        <img src="../img/foto-perfil.jpg" alt="Foto de Gonzalo Orlandoni" class="foto-perfil mb-4" />
+        <h2 class="text-center mb-3">Gonzalo Orlandoni</h2>
+        <p>
+          Soy un apasionado del desarrollo web y la programación, en constante formación para convertirme en un
+          profesional del mundo IT. Me enfoco en aprender nuevas tecnologías y mejorar mis habilidades día a día.
+        </p>
+        <p>
+          Actualmente curso Desarrollo Full Stack en Coderhouse y Diseño y Programación Web en Da Vinci. Mi objetivo es
+          conseguir una salida laboral remota que me permita combinar mi pasión por la tecnología con la libertad de
+          trabajar desde cualquier lugar.
+        </p>
+        <p>
+          Además, practico gimnasio como pilar emocional y rutina diaria, lo que me ayuda a mantener disciplina y
+          constancia en todos los ámbitos de mi vida.
+        </p>
       </section>
     </main>
 
-    <footer>
-      <div class="social-links">
-        <a href="https://www.instagram.com/gonzaorlandoni/" target="_blank" rel="noopener noreferrer">
-          <img src="../img/logoinstagram.png" alt="Instagram" />
+    <footer class="mt-5">
+      <div class="social-links text-center mb-3">
+        <a href="https://www.instagram.com/gonzaorlandoni/" target="_blank" rel="noopener noreferrer" class="mx-2">
+          <img src="../img/logoinstagram.png" alt="Instagram" width="30" height="30" />
         </a>
         <a
           href="https://www.linkedin.com/in/gonzalo-javier-orlandoni-337892229/"
           target="_blank"
           rel="noopener noreferrer"
+          class="mx-2"
         >
-          <img src="../img/logolinkedin.png" alt="LinkedIn" />
+          <img src="../img/logolinkedin.png" alt="LinkedIn" width="30" height="30" />
         </a>
       </div>
-      <p>&copy; 2025 Gonzalo Orlandoni</p>
+      <p class="text-center text-muted">&copy; 2025 Gonzalo Orlandoni</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
