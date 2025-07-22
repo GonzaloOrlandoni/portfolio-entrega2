@@ -81,10 +81,11 @@ main.container {
 
 footer {
   background-color: #292d3e;
-  color: #c8d3f5;
+  color: #ffffff; /* texto blanco sólido */
   text-align: center;
   padding: 20px;
   margin-top: 60px;
+  font-weight: 600;
 }
 
 footer .social-links {
@@ -106,6 +107,7 @@ footer .social-links a:hover img {
 footer p {
   margin: 0;
   font-size: 0.9rem;
+  color: #ffffff; /* aseguramos texto blanco */
 }
 
 .form-control-custom {
@@ -221,4 +223,8 @@ footer p {
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(130, 170, 255, 0.3);
   text-align: center;
+}
+
+.text-white-custom {
+  color: #ffffff !important;
 }
