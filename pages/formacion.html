@@ -1,45 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Formación - Gonzalo Orlandoni</title>
-   <link rel="stylesheet" href="../style.css">
-   <link rel="icon" href="../img/favicon-entrega2.png" type="image/png">
-</head>
-<body>
-   <header>
-   <nav class="navbar">
-      <h1>Gonzalo Orlandoni</h1>
-      <ul class="nav-links">
-      <li><a href="../index.html">Inicio</a></li>
-      <li><a href="sobre-mi.html">Sobre mí</a></li>
-      <li><a href="proyectos.html">Proyectos</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-      <li><a href="formacion.html">Formación</a></li>
-      </ul>
-   </nav>
-   </header>
-   <main>
-   <section class="formacion">
-      <h2>Formación Académica</h2>
-      <ul>
-      <li><strong>Coderhouse:</strong> Desarrollo Full Stack</li>
-      <li><strong>Coderhouse:</strong> Ciberseguridad</li>
-      <li><strong>Da Vinci:</strong> Diseño y Programación Web</li>
-      </ul>
-   </section>
-   </main>
-   <footer>
-   <div class="social-links">
-   <a href="https://www.instagram.com/gonzaorlandoni/%7D" target="_blank" rel="noopener noreferrer">
-   <img src="../img/logoinstagram.png" alt="Instagram" width="30" height="30">
-   </a>
-   <a href="https://www.linkedin.com/in/gonzalo-javier-orlandoni-337892229/" target="_blank" rel="noopener noreferrer">
-   <img src="../img/logolinkedin.png" alt="Instagram" width="30" height="30">
-   </a>
-   </div>
-   <p>&copy; 2025 Gonzalo Orlandoni</p>
-   </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formación - Gonzalo Orlandoni</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../img/favicon-entrega2.png" type="image/png" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Gonzalo Orlandoni</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="formacion.html">Formación</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-5">
+      <h2 class="text-center mb-4">Formación</h2>
+      <section class="row gy-4 justify-content-center">
+        <article class="card col-12 col-md-4 p-4">
+          <h3>Desarrollo Full Stack - Coderhouse</h3>
+          <p>
+            Me estoy formando para crear sitios web desde cero usando HTML, CSS
+            y JavaScript, incorporando buenas prácticas de desarrollo y lógica
+            de programación. También aprendo React para construir aplicaciones
+            dinámicas y escalables.
+          </p>
+        </article>
+
+        <article class="card col-12 col-md-4 p-4">
+          <h3>Ciberseguridad - Coderhouse</h3>
+          <p>
+            Estoy aprendiendo los fundamentos de ciberseguridad, tipos de
+            amenazas, ataques comunes y ethical hacking. Incorporo técnicas para
+            descubrir vulnerabilidades y proteger redes y sistemas de forma
+            efectiva.
+          </p>
+        </article>
+
+        <article class="card col-12 col-md-4 p-4">
+          <h3>Diseño y Programación Web - Da Vinci</h3>
+          <p>
+            Me estoy formando como Full Stack Developer, dominando front y
+            backend, diseño UX, APIs y marketing digital. Aprendo a crear
+            páginas web responsivas y apps móviles modernas, usando herramientas
+            de IA y prácticas profesionales reales.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.instagram.com/gonzaorlandoni/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="../img/logoinstagram.png" alt="Instagram" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gonzalo-javier-orlandoni-337892229/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="../img/logolinkedin.png" alt="LinkedIn" />
+        </a>
+      </div>
+      <p>&copy; 2025 Gonzalo Orlandoni</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
