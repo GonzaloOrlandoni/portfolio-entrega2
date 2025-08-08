@@ -1,15 +1,25 @@
-// scss/components/_buttons.scss
-
-.button {
-  background-color: $color-primary;
-  color: $color-white;
-  padding: 0.6rem 1.2rem;
+.btn-custom {
+  background-color: $color-accent;
   border: none;
-  border-radius: 4px;
+  color: $color-bg;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: $radius;
+  transition: background-color 0.3s ease;
   cursor: pointer;
-  @include transition(all);
 
   &:hover {
-    background-color: $color-secondary;
+    background-color: #4b5073;
+    color: $color-text;
   }
+}
+
+.list-group-item {
+  background-color: #3a3f5c;
+  border: none;
+  color: $color-text;
+  font-weight: 500;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  padding: 10px 15px;
 }

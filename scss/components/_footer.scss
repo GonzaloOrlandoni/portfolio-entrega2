@@ -1,0 +1,30 @@
+footer {
+  background-color: $color-bg;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  font-weight: 600;
+
+  .social-links {
+    margin-bottom: 10px;
+
+    a img {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+      vertical-align: middle;
+      transition: filter 0.3s ease;
+
+      &:hover {
+        filter: brightness(1.4);
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+}

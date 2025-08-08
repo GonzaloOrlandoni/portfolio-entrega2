@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .sobre-mi {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+  }
+
+  .proyectos .card,
+  .formacion .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contacto input,
+  .contacto textarea,
+  .contacto button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .grid-proyectos {
+    grid-template-columns: 1fr;
+  }
+
+  footer > .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
