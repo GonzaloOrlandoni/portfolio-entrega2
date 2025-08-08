@@ -1,0 +1,17 @@
+// scss/utils/_mixins.scss
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: 600px) {
+      @content;
+    }
+  } @else if $breakpoint == tablet {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+}
+
+@mixin transition($properties, $duration: 0.3s, $timing: ease-in-out) {
+  transition: $properties $duration $timing;
+}
