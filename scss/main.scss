@@ -1,4 +1,15 @@
 @import "base/variables";
 @import "utils/mixins";
 @import "base/reset";
+@import "base/typography";
+@import "layout/navbar";
+@import "layout/main";
+@import "components/hero";
+@import "components/card";
 @import "components/buttons";
+@import "components/form";
+@import "components/footer";
+@import "components/perfil";
+@import "pages/sobre-mi";
+@import "utils/media";
+@import "utils/utilities";
