@@ -1,0 +1,21 @@
+body {
+  font-family: $font-stack;
+  background: linear-gradient(135deg, $bg-start, $bg-end);
+  color: $text;
+  line-height: 1.7;
+  padding: 20px 0;
+  min-height: 100vh;
+}
+
+main.container {
+  max-width: $max-width;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: darken($card-bg, 2%);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-white-custom {
+  color: #fff !important;
+}

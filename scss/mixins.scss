@@ -1,0 +1,19 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: #{$bp-sm}) {
+      @content;
+    }
+  } @else if $breakpoint == md {
+    @media (max-width: #{$bp-md}) {
+      @content;
+    }
+  } @else if $breakpoint == lg {
+    @media (max-width: #{$bp-lg}) {
+      @content;
+    }
+  }
+}
+
+@mixin transition($props: all, $time: 0.3s, $fn: ease) {
+  transition: $props $time $fn;
+}
