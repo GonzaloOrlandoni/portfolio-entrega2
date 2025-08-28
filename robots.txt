@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gonzaloorlandoni.github.io/portfolio-entrega2/sitemap.xml
